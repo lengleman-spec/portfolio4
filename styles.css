@@ -28,3 +28,22 @@ nav {
   height: 2px;
   background-color: black;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+
+.hero-left {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-left h2 {
+  padding-bottom: 1rem;
+}
+
+.hero-right {
+  padding: 4rem;
+}
