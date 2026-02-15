@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -21,6 +25,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
+  font-size: 1.5rem;
 }
 
 .line {
@@ -32,6 +37,12 @@ nav {
 .hero {
   display: grid;
   grid-template-columns: 4fr 8fr;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.hero-left p {
+  font-size: 1.2rem;
 }
 
 .hero-left {
@@ -42,10 +53,15 @@ nav {
 
 .hero-left h2 {
   padding-bottom: 1rem;
+  font-size: 1.6rem;
 }
 
 .hero-right {
   padding: 6rem 4rem;
+}
+
+.hero-right {
+  font-size: 1.3rem;
 }
 
 .hero-btns {
@@ -54,4 +70,9 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.hero-btns button {
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
 }
