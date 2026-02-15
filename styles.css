@@ -76,3 +76,32 @@ nav {
   font-size: 1.4rem;
   padding: 0.5rem 1rem;
 }
+
+/* ---------- EXPERIENCE ---------- */
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.vertical-line {
+  height: 60px;
+  width: 2px;
+  background-color: black;
+}
+
+.experience {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+}
+
+.experience-items {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  gap: 1.5rem;
+}
