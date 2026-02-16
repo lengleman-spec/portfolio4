@@ -167,6 +167,7 @@ nav {
   width: 150px;
   height: 150px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
