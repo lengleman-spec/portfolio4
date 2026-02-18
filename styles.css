@@ -203,3 +203,45 @@ nav {
   width: 100%;
   height: auto;
 }
+
+/* ---------- CONTACT ---------- */
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact .line-container {
+  margin: 3rem 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+fieldset {
+  width: 50%;
+  border: none;
+}
+
+legend {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  text-align: center;
+}
