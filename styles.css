@@ -139,6 +139,9 @@ nav {
 }
 
 /* ---------- SKILLS ---------- */
+.skills .line-container {
+  margin: 3rem 0;
+}
 .skills-container {
   display: flex;
   align-items: center;
@@ -162,6 +165,10 @@ nav {
   font-size: 5rem;
 }
 
+.skills-card p {
+  font-size: 1.3rem;
+}
+
 .skills-card .circle {
   background-color: red;
   width: 150px;
@@ -170,4 +177,29 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.skills h2 {
+  font-size: 1.8rem;
+}
+
+/* ---------- PROJECTS ---------- */
+.projects .line-container {
+  margin: 3rem 0;
+}
+
+.projects h2 {
+  font-size: 1.8rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 0 4rem;
+}
+
+.projects-container img {
+  width: 100%;
+  height: auto;
 }
