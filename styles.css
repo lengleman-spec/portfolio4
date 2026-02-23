@@ -108,7 +108,6 @@ nav {
 
 .experience {
   min-height: 100vh;
-  padding: 6rem 2rem;
 }
 
 .experience-items {
@@ -124,7 +123,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 
 .line-container-right {
@@ -212,10 +211,21 @@ nav {
 }
 
 /* ---------- CONTACT ---------- */
+form {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
 .form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+}
+
+.contact {
+  padding: 6rem 5rem;
 }
 
 .form-container > div {
@@ -253,15 +263,6 @@ legend {
   text-align: center;
 }
 
-form {
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 1rem;
-  margin-left: 3rem;
-  background-color: white;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
-}
-
 .contact-info {
   background-color: var(--accent-color);
   color: white;
@@ -272,6 +273,9 @@ form {
   justify-content: flex-start;
   gap: 1rem;
   padding: 2rem 0;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .contact-info-container {
@@ -305,4 +309,10 @@ form {
   justify-content: center;
   padding-left: 2rem;
   font-size: 1.2rem;
+}
+
+/* Section */
+
+section {
+  padding: 6rem 5rem;
 }
