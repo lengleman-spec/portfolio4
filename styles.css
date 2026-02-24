@@ -65,6 +65,7 @@ nav {
   min-height: 100vh;
   align-items: center;
   color: var(--dark-blue);
+  background-image: url(pattern-randomized.svg);
 }
 
 .hero-left p {
@@ -114,6 +115,11 @@ nav {
 }
 
 /* ---------- EXPERIENCE ---------- */
+.experience {
+  background-image: url(page-turner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .circle {
   width: 50px;
