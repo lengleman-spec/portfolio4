@@ -115,11 +115,11 @@ nav {
 }
 
 /* ---------- EXPERIENCE ---------- */
-.experience {
+/* .experience {
   background-image: url(page-turner.svg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .circle {
   width: 50px;
@@ -269,6 +269,11 @@ nav {
 }
 
 /* ---------- PROJECTS ---------- */
+.projects {
+  background-image: url(page-turner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .projects .line-container {
   margin: 3rem 0;
 }
