@@ -2,6 +2,8 @@
 
 :root {
   --accent-color: #065cc2;
+  --primary-color: #13447f;
+  --dark-blue: #314862;
 }
 
 * {
@@ -12,11 +14,13 @@
 }
 
 body {
-  background-color: #f7faff;
+  background-color: #fff;
 }
 
 h1 {
   font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
 }
 
 a {
@@ -43,10 +47,14 @@ nav {
   font-size: 1.5rem;
 }
 
+.nav-item a {
+  color: var(--dark-blue);
+}
+
 .line {
   width: 60px;
   height: 2px;
-  background-color: black;
+  background-color: var(--dark-blue);
   display: block;
 }
 
@@ -55,6 +63,7 @@ nav {
   grid-template-columns: 4fr 8fr;
   min-height: 100vh;
   align-items: center;
+  color: var(--dark-blue);
 }
 
 .hero-left p {
@@ -90,7 +99,17 @@ nav {
 
 .hero-btns button {
   font-size: 1.4rem;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.hero-btns button:hover {
+  background-color: var(--accent-color);
 }
 
 /* ---------- EXPERIENCE ---------- */
@@ -278,6 +297,14 @@ legend {
   margin: 0 auto;
 }
 
+.contact-info-p {
+  padding: 0 2rem;
+}
+
+.contact-info h3 {
+  font-size: 2rem;
+}
+
 .contact-info-container {
   display: flex;
   flex-direction: column;
@@ -300,7 +327,7 @@ legend {
 
 .contact-method {
   display: flex;
-  margin: 1.2rem 0;
+  margin: 1.2rem 2rem;
 }
 
 .info-text {
