@@ -173,6 +173,10 @@ nav {
 .skills .line-container {
   margin: 3rem 0;
 }
+
+.skills .line-container .line {
+  background-color: var(--primary-color);
+}
 .skills-container {
   display: flex;
   align-items: center;
@@ -191,14 +195,16 @@ nav {
 
 .skills-card i {
   font-size: 5rem;
+  color: var(--accent-color);
 }
 
 .skills-card p {
   font-size: 1.3rem;
+  color: var(--accent-color);
 }
 
 .skills-card .circle {
-  background-color: red;
+  background-color: var(--dark-blue);
   width: 150px;
   height: 150px;
   display: flex;
@@ -209,6 +215,7 @@ nav {
 
 .skills h2 {
   font-size: 1.8rem;
+  color: var(--primary-color);
 }
 
 /* ---------- PROJECTS ---------- */
