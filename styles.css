@@ -14,8 +14,17 @@
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--bg-color);
+}
+
+header {
+  background-image: url(pattern-randomized.svg);
+  background-position: center;
 }
 
 h1 {
@@ -272,14 +281,27 @@ nav {
   background-image: url(page-turner.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
+.projects::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(249, 251, 255, 0.8);
+}
+
+.projects > * {
+  position: relative;
+  z-index: 1;
+}
+
 .projects .line-container {
   margin: 3rem 0;
 }
 
 .projects h2 {
   font-size: 1.8rem;
-  color: black;
+  color: var(--dark-blue);
 }
 
 .projects-container {
@@ -294,6 +316,10 @@ nav {
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.projects-container h3 {
+  color: var(--dark-blue);
 }
 
 /* ---------- CONTACT ---------- */
