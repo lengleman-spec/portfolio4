@@ -25,6 +25,7 @@ body {
 header {
   background-image: url(pattern-randomized.svg);
   background-position: center;
+  background-size: cover;
 }
 
 h1 {
@@ -301,7 +302,7 @@ nav {
 
 .projects h2 {
   font-size: 1.8rem;
-  color: var(--dark-blue);
+  color: var(--primary-color);
 }
 
 .projects-container {
@@ -319,7 +320,7 @@ nav {
 }
 
 .projects-container h3 {
-  color: var(--dark-blue);
+  color: var(--primary-color);
 }
 
 /* ---------- CONTACT ---------- */
@@ -339,6 +340,7 @@ form {
 
 .contact {
   padding: 6rem 5rem;
+  background-image: url(/pattern-randomized.svg);
 }
 
 .form-container > div {
